@@ -13,7 +13,11 @@ logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s  %(filename)s : %(levelname)s  %(message)s',  # 定义输出log的格式
                     stream=sys.stdout,
                     datefmt=DATE_FORMAT)
-
+print(r'''
+**************************************
+    欢迎使用i茅台自动预约工具
+**************************************
+''')
 
 process.get_current_session_id()
 
