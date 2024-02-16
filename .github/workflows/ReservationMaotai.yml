@@ -42,7 +42,7 @@ jobs:
 
       - name: start run
         env:
-          PUSHPLUS_KEY: ${{ secrets.PUSHPLUS_KEY }}
+          PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
           PRIVATE_AES_KEY: ${{ secrets.PRIVATE_AES_KEY }}
           AMAP_KEY: ${{ secrets.AMAP_KEY }}
         run: |
