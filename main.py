@@ -79,6 +79,9 @@ for section in configs.sections():
     except BaseException as e:
         print(e)
         logging.error(e)
+print(s_title, s_content)
 
 # 推送消息
+print(r'start send msg')
 process.send_msg(s_title, s_content)
+print(r'msg sending finished')
